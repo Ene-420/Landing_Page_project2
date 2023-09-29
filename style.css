@@ -1,0 +1,154 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-content1{
+    background-color:  #006276;
+    margin: 0;
+}
+
+.header-nav-bar{
+    display: flex;
+    width: 70%;
+    margin: 10px auto;
+    padding: 8px;
+    font-size: larger;
+    color: white;
+    
+}
+
+.nav-bar-items{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    justify-content: space-evenly;
+}
+
+.nav-bar-items li{
+    padding: 0 8px;
+}
+.nav-bar-items li a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    margin-right: auto;
+}
+
+.header-content2{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+    background-color: #00778f;
+}
+
+.h2-content, .h2-button, .header-content2 p{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+
+}
+
+.h2-content h1, .main2-header2{
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.header-content2 p{
+    margin-bottom: 21px;
+    font-size: 30px;
+}
+
+.h2-button{
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;   
+    gap: 8px;
+}
+
+.b-SMWL, .b-HIW{
+    
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-color: #faed27;
+}
+
+.b-SMWL{
+    background-color: #faed27;
+}
+
+.b-HIW{
+    background-color: #00778f;
+    color: #faed27;
+    
+}
+
+.header-content3{
+    background-color: #00778f;
+    padding: 8px;
+}
+
+.main1 ul{
+    width: 70%;
+    display: flex;
+    flex-wrap:wrap ;
+    margin: 30px auto;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+}
+
+.main1 ul li{
+    padding: 10px;
+    font-size: 30px;
+    width: 30%;
+}
+.main2{
+    background-color: rgb(192, 192, 192);
+}
+.main2-body{
+    width: 70%;
+    display: flex;
+    margin: 30px auto;
+    padding: 10px 0;
+    color: rgb(65, 65, 65);
+}
+
+.main2-body-content{
+    /* color: rgb(65, 65, 65); */
+    padding: 0 10px;
+}
+
+.main2-header1{
+    font-size: 35px;
+}
+
+.main2-header2{
+    margin-left: 30px;
+}
+
+.main2-image{
+    background-color: rgb(24, 201, 201);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
